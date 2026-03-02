@@ -30,15 +30,35 @@
                 /* efek melayang dan transisi pada card*/
                 flex: 1;
                 min-width: 250px;
-                background: black;
+                background: white;
                 border: 1px solid #eee;
                 padding: 20px;
-                border-redius:12px;
+                border-radius:12px;
 
                 /* syarat Transisi */
                 transition: all 0.3s esase;
                 box-shodow: 0 4px 6px rgba (0, 0,0,0,05);
 
 
+
             }
+            .card:hover{
+                transform:translatey(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+            .foto-profil{
+                text-align: center;
+                margin-bottom: 20px;
+                padding-top:20px;
+            }
+            .foto-profil img{
+                widht:150px;
+                height:150px;
+                border-radius:50%;
+                object-fit:cover;
+                border:4px solid #5a65ad;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                transition:transform 0.3s ease;
+            }
+
         

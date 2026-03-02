@@ -1,0 +1,44 @@
+    
+            body{
+                font-family: 'segoe''Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                /* menggunakan gradien*/
+                background: linear-gradient(135deg, #f4f4f9 0%, #d1d5db 100%);
+                padding: 40px;
+                color:blue;
+                min-height: 100vh;
+
+            }
+            .container{
+                max-width: 800px;
+                margin: 0 auto;
+                background-color:white
+                berder: radius 15px;
+                overflow:after;
+                box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            }
+           
+
+            /* implementasi untuk FLEXBOX untuk Hobi dan film*/
+            .fex-container{
+                display: flex; /* Flexbox*/
+                gap: 20px;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+            }
+            .card{
+                /* efek melayang dan transisi pada card*/
+                flex: 1;
+                min-width: 250px;
+                background: black;
+                border: 1px solid #eee;
+                padding: 20px;
+                border-redius:12px;
+
+                /* syarat Transisi */
+                transition: all 0.3s esase;
+                box-shodow: 0 4px 6px rgba (0, 0,0,0,05);
+
+
+            }
+        
